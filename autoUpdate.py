@@ -44,7 +44,7 @@ def check_file_update(file_path):
 def main():
     # Local file path
     file_name = "file_version.txt"
-    search_dir = "D:\\autoUpdateCheck"
+    search_dir = "D:\\autoUpdateChecker"
     LOCAL_FILE_PATH = find_file(search_dir, file_name)
     
     if LOCAL_FILE_PATH:
