@@ -46,6 +46,7 @@ def main():
     file_name = "file_version.txt"
     search_dir = "D:\\autoUpdateChecker"
     LOCAL_FILE_PATH = find_file(search_dir, file_name)
+    #LOCAL_FILE_PATH = "D:\\autoUpdateChecker\\file_version.txt"
     
     if LOCAL_FILE_PATH:
         print("file name: ", LOCAL_FILE_PATH)
